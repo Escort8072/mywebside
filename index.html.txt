@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Deposit Activation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .message {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <p>Hello Sir/Madam,</p>
+        <p>Your service amount is done. Now you have to pay your and Madam both of security deposit of ₹7500. It will be refunded after service room checkout time.</p>
+        <p>Once you complete the security deposit payment, you will receive your activation code here:</p>
+        <p><a href="javascript:void(0)" class="link" onclick="alert('Error: Payment not detected. Please complete the security deposit payment first.')">Activate Security Deposit Code</a></p>
+    </div>
+</body>
+</html>
